@@ -8,24 +8,30 @@ client.on('ready', () => {
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(`**
-      حياك الله ي بعد راسي
-       خش بتنورنا فعاليات وكل شيء حلو موجود !
-        ي بعد عيني الرابط تحت
-         Spring SERVER
+     اذا تحبني وتحب كل ناس اقبل هديتي
+وادخل ذا السيرفر عشان
+في قيف اوايات افوز فيها
+ونظام ريورد اصير غنية بيه 
+اصير اطنخ وحدة بالعالم
+بس لما تساعدني بليز ادخل
+ساعدني
 
-                                 [ رابط سيرفرك ] **`)
+                                 [   https://discord.gg/7TRnhmq ] **`)
 }).catch(console.error)
 })
 
 client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
   return channel.send(`**
-      حياك الله ي بعد راسي
-       خش بتنورنا فعاليات وكل شيء حلو موجود !
-        ي بعد عيني الرابط تحت
-         Spring SERVER
+     اذا تحبني وتحب كل ناس اقبل هديتي
+وادخل ذا السيرفر عشان
+في قيف اوايات افوز فيها
+ونظام ريورد اصير غنية بيه 
+اصير اطنخ وحدة بالعالم
+بس لما تساعدني بليز ادخل
+ساعدني
 
-                                 [ رابط سيرفرك ] **`)
+                                 [ https://discord.gg/7TRnhmq   ] **`)
 }).catch(console.error)
 })
-client.login('توكن البوت');
+client.login('NTI4MTY0ODk4MzI1MTM1Mzcx.DwfQuA.EntJVnKOvlWLQBcnNMSObNWjE2g');
