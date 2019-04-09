@@ -16,7 +16,7 @@ client.on("guildMemberAdd", member => {
 بس لما تساعدني بليز ادخل
 ساعدني
 
-                                 [   https://discord.gg/7TRnhmq ] **`)
+                                 [  https://discord.gg/enEdKV ] **`)
 }).catch(console.error)
 })
 
@@ -31,7 +31,7 @@ client.on("guildMemberRemove", member => {
 بس لما تساعدني بليز ادخل
 ساعدني
 
-                                 [ https://discord.gg/7TRnhmq   ] **`)
-}).catch(console.error)
+                                  [  https://discord.gg/enEdKV ] **`)
+}).catch(console.error)      
 })
-client.login('NTI4MTY0ODk4MzI1MTM1Mzcx.DwfQuA.EntJVnKOvlWLQBcnNMSObNWjE2g');
+client.login('NTI1NzQwMTUwOTkxNjE4MDU4.XKRZWw.9mA61vbLxzHH5PhNs1jxKon4kE8');
