@@ -34,4 +34,4 @@ client.on("guildMemberRemove", member => {
                                   [  https://discord.gg/enEdKV ] **`)
 }).catch(console.error)      
 })
-client.login('NTI1NzQwMTUwOTkxNjE4MDU4.XKRZWw.9mA61vbLxzHH5PhNs1jxKon4kE8');
+client.login('NTYwMDYxODkxMDc5MDQ1MTMx.XKcqLA.Wv1WWtV9HTCc8tQjJlnNsH9Jr00');
