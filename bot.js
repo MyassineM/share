@@ -5,7 +5,7 @@ client.on("message", (message) => {
 
    if (message.content.startsWith("!new")) {   
         const reason = message.content.split(" ").slice(1).join(" ");  
-        if (!message.guild.roles.exists("name", "Support Team")) return message.channel.send(`لازم تسوي رتبة اسمها ``Support Team`` وتعطيها برمشن ادمنسترايشن | **إدارة كالفورنيا** `);
+        if (!message.guild.roles.exists("name", "Support Team")) return message.channel.send(`لازم تسوي رتبة اسمها \`Support Team\` وتعطي البوت برمشن ادمنسترايشن حتى يقدر يسوي الرومات ويعدل برمشنات| إدارة كالفورنيا ****`);
         if (message.guild.channels.exists("name", "ticket-{message.author.id}" + message.author.id)) return message.channel.send(`You already have a ticket open.`);    /// ALPHA CODES
         message.guild.createChannel(`ticket-${message.author.username}`, "text").then(c => {
             let role = message.guild.roles.find("name", "Support Team");
@@ -22,10 +22,10 @@ client.on("message", (message) => {
                 SEND_MESSAGES: true,
                 READ_MESSAGES: true
             });
-            message.channel.send(`:white_check_mark:**إدارة كالفورنيا** | تم انشاء تذكرتك, #${c.name}.`);
+            message.channel.send(`:white_check_mark: تم انشاء تذكرتك, #${c.name}.`);
             const embed = new Discord.RichEmbed()
                 .setColor(0xCF40FA)
-                .addField(`Hey ${message.author.username}!`, `:white_check_mark:  تم انشاء تذكرتك, #ticket | **إدارة كالفورنيا** `)
+                .addField(`Hey ${message.author.username}!`, `:white_check_mark:  تم انشاء تذكرتك, #ticket| **إدارة كالفزرنيا**`)
                 .setTimestamp();
             c.send({
                 embed: embed
@@ -37,9 +37,9 @@ client.on("message", (message) => {
   if (message.content.startsWith("!close")) {
         if (!message.channel.name.startsWith(`ticket-`)) return message.channel.send(`You can't use the close command outside of a ticket channel.`);
  
-       message.channel.send(` ``confirm`` عيد اكتب`)
+       message.channel.send(`**إدارة كالفورنيا** | قم بتاكد عبر كتابة ``confirm```)
            .then((m) => {
-               message.channel.awaitMessages(response => response.content === ' confirm', {
+               message.channel.awaitMessages(response => response.content === 'confirm', {
                        max: 1,
                        time: 10000,
                        errors: ['time'],
