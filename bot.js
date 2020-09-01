@@ -102,4 +102,4 @@ if (message.content.startsWith(prefix + '4')) {
     });	
 
   
-client.login('NTEzMzc4OTU0NDk3NzUzMDk4.W_A3aA.focSstXIfzcgnwlvN9jXrYA9I80');
+client.login(process.env.BOT_TOKEN);
